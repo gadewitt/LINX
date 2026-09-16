@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "sha": "ed529215e8006edbf21b78bad9056e2cc169d3c1",
+    "short": "ed52921",
+    "platform": "linux",
+    "repo": "gadewitt/LINX",
+    "pages_url": "https://gadewitt.github.io/LINX",
+    "pages_base": "../../..",
+    "commit": {
+      "message": "Increase synchronization timeout",
+      "author": "David Curtiss",
+      "date": "2026-09-03T16:43:20-04:00"
+    },
+    "generated_utc": "2026-09-16 23:04 UTC",
+    "analysis_date": "",
+    "duration": ""
+  },
+  "summary": {
+    "vis_analyzed": 0,
+    "tests_run": 0,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "findings": 0,
+    "vis_with_findings": 0
+  },
+  "errors": {
+    "vi_not_loadable": 0,
+    "test_not_loadable": 0,
+    "test_not_runnable": 0,
+    "test_error_out": 0
+  },
+  "rule_counts": []
+}
