@@ -1,0 +1,71 @@
+{
+ "meta": {
+  "sha": "482e4ff99b031d1c654a0b39d6a3e8be279a10cc",
+  "short": "482e4ff",
+  "platform": "windows",
+  "repo": "gadewitt/LINX",
+  "pages_url": "https://gadewitt.github.io/LINX",
+  "snap_base": "https://gadewitt.github.io/LINX/vi-snapshots/",
+  "dash_url": "https://gadewitt.github.io/LINX/",
+  "labview_version": "2026",
+  "tools": [],
+  "commit": {
+   "message": "Update LINX help to point to github wiki",
+   "author": "Ken Sharp",
+   "date": "2026-02-06T17:03:03-05:00"
+  },
+  "generated_utc": "2026-09-16 22:54 UTC"
+ },
+ "summary": {
+  "tests": 0,
+  "passed": 0,
+  "failed": 0,
+  "errored": 0,
+  "skipped": 0,
+  "percent": 0,
+  "status": "empty",
+  "duration": 0.0
+ },
+ "status_order": [
+  "failed",
+  "error",
+  "skipped",
+  "passed"
+ ],
+ "status_meta": {
+  "failed": {
+   "label": "Failed",
+   "color": "#da3633",
+   "blurb": "An assertion failed."
+  },
+  "error": {
+   "label": "Errored",
+   "color": "#bb8009",
+   "blurb": "The test raised an unexpected error."
+  },
+  "skipped": {
+   "label": "Skipped",
+   "color": "#6e7681",
+   "blurb": "The test was skipped."
+  },
+  "passed": {
+   "label": "Passed",
+   "color": "#2ea043",
+   "blurb": "The test passed."
+  }
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "suites": [],
+ "tooling": {
+  "missing": []
+ }
+}
