@@ -1,0 +1,1130 @@
+{
+  "schema": 1,
+  "repo": "gadewitt/LINX",
+  "sha": "e24d9af9d2dc798221db2b27b426ed2eb0e13e49",
+  "revisions": [
+    {
+      "sha": "e24d9af9d2dc798221db2b27b426ed2eb0e13e49",
+      "short": "e24d9af",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Glenn DeWitt",
+      "date": "2026-09-16T21:54:08Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "ed529215e8006edbf21b78bad9056e2cc169d3c1",
+      "short": "ed52921",
+      "message": "Increase synchronization timeout",
+      "author": "David Curtiss",
+      "date": "2026-09-02T21:44:54Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "482e4ff99b031d1c654a0b39d6a3e8be279a10cc",
+      "short": "482e4ff",
+      "message": "Update LINX help to point to github wiki",
+      "author": "Ken Sharp",
+      "date": "2026-02-06T17:48:37Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "05450bd2a5f11b6ffe453924c5d0037a251cc798",
+      "short": "05450bd",
+      "message": "Make Target Config dialog handle multiple packages",
+      "author": "Ken Sharp",
+      "date": "2025-09-17T13:51:42Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "3599c62483d46bd2d0ffcff58731e475cc856f29",
+      "short": "3599c62",
+      "message": "Restore some comments",
+      "author": "Ken Sharp",
+      "date": "2024-08-13T16:46:22Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "3f60abb1a29c772beaa97d1d89f85cad971e58a3",
+      "short": "3f60abb",
+      "message": "Merge RPi2 and RPi5 implementations back together",
+      "author": "Ken Sharp",
+      "date": "2024-08-13T16:37:45Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "905833055ed42516296eeec686d51bfcd10adedd",
+      "short": "9058330",
+      "message": "Merge pull request #132 from albsbc/UPDATE_PI5_GPIO_BASE",
+      "author": "sharpk",
+      "date": "2024-08-12T18:26:10Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "d7804f3ad7de5090978f0f2b919831b3272f37b7",
+      "short": "d7804f3",
+      "message": "Incorporated review comments\r",
+      "author": "albsbc",
+      "date": "2024-08-09T20:43:16Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "81ba3a1fb2a8c224afc0a514f05e7a988228cd04",
+      "short": "81ba3a1",
+      "message": "Fix Rpi 5 GPIO base for PI OS 6.6.31+rpt-rpi-v8.  Removed debug printf from getGpioBase()",
+      "author": "albsbc",
+      "date": "2024-07-28T15:58:22Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "1b8af6d6c56b9cf595095f49d6b04d4fbd8e49f4",
+      "short": "1b8af6d",
+      "message": "Fix Rpi 5 GPIO base for PI OS 6.6.31+rpt-rpi-v8.  The GPIO base is read at runtime.",
+      "author": "albsbc",
+      "date": "2024-07-28T15:30:54Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "06cfec53d9e95d9f769cb4e08c631718ab538180",
+      "short": "06cfec5",
+      "message": "Fix error reading GPIO inputs. The new version of PI OS sets the default GPIO direction to none.",
+      "author": "albsbc",
+      "date": "2024-07-21T20:50:17Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "4e163fa22dd2e4d2d1fffc8b095569b23cd8072d",
+      "short": "4e163fa",
+      "message": "Fix Rpi 5 GPIO base for PI OS 6.6.31+rpt-rpi-v8",
+      "author": "albsbc",
+      "date": "2024-07-21T13:14:22Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "5b14bcacd267031c119981938b94a57af11e71b5",
+      "short": "5b14bca",
+      "message": "Fix Rpi 5 GPIO base for PI OS 6.6.31+rpt-rpi-v8",
+      "author": "albsbc",
+      "date": "2024-07-21T13:04:23Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "5716015317bb643999f05693b4311735a65a7e69",
+      "short": "5716015",
+      "message": "Add .gitignore to prevent bins from being checked in again",
+      "author": "Craig Smith",
+      "date": "2024-01-29T20:12:30Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "457ad7da2cd94055f7872cf117437dae3713b4f8",
+      "short": "457ad7d",
+      "message": "Remove built binaries from source control",
+      "author": "Craig Smith",
+      "date": "2024-01-29T20:10:22Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "ad407b7511d7211c2308e21998e1a575e0ccfe62",
+      "short": "ad407b7",
+      "message": "Fix DIO crash on RPi5",
+      "author": "Ken Sharp",
+      "date": "2024-01-25T22:02:18Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "71b9172d60642004e99ef1fa99c16a87504adf12",
+      "short": "71b9172",
+      "message": "Make Add Makerhub Feed.vi work on Mac",
+      "author": "Ken Sharp",
+      "date": "2024-01-24T20:19:35Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "4e341cf2a0f9a4ab716aa2044dc51bc8ad48d31c",
+      "short": "4e341cf",
+      "message": "Replace Target Config .NET SSH backend with OpenSSH",
+      "author": "Ken Sharp",
+      "date": "2024-01-24T16:15:34Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "6a51789e5215bbeb30818d8aa1625131a46ab974",
+      "short": "6a51789",
+      "message": "Fix Device Type parsing",
+      "author": "Ken Sharp",
+      "date": "2024-01-24T16:02:59Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "6ba684a04b6f3e6f92973391d94f85c629530539",
+      "short": "6ba684a",
+      "message": "Move MakerHub feed config",
+      "author": "Ken Sharp",
+      "date": "2024-01-24T15:57:22Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "330d6543e503581ba54fbd104e9b4d17cf856896",
+      "short": "330d654",
+      "message": "Fix compile errors and string issue",
+      "author": "Craig Smith",
+      "date": "2024-01-16T21:54:35Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "684ce7dcd862032f8bfac2141ded14454713a1dd",
+      "short": "684ce7d",
+      "message": "fixup! Add support for RPi 5",
+      "author": "Ken Sharp",
+      "date": "2024-01-10T15:26:06Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "85ac4c2c8c9b9a81b6d1d29b5004f02356714b3b",
+      "short": "85ac4c2",
+      "message": "Add support for RPi 5",
+      "author": "Ken Sharp",
+      "date": "2024-01-10T15:17:49Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "47b113818237d15e4617faf7227407586005c7cd",
+      "short": "47b1138",
+      "message": "Add supported devices to README",
+      "author": "Ken Sharp",
+      "date": "2022-08-04T14:48:13Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "ff93ab154a98a2c436c5fdc7c6800c0c1e47c689",
+      "short": "ff93ab1",
+      "message": "Merge pull request #119 from sharpk/add-contributing",
+      "author": "sharpk",
+      "date": "2022-07-29T19:22:35Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "1b8763e185c749839b5abd307e4937ca4da63974",
+      "short": "1b8763e",
+      "message": "Add CONTRIBUTING.md and PR template",
+      "author": "Ken Sharp",
+      "date": "2022-07-29T18:52:50Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "24f8587dd1a4ebf9bb9739c3d649b722726aefb2",
+      "short": "24f8587",
+      "message": "Update menus/Hobbyist/dir.mnu with one erroneously hosted in p4 Toolbox repo mirror.",
+      "author": "Craig Smith",
+      "date": "2022-06-24T21:40:21Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "bbda0261898abc73db984540cc8241f95773deef",
+      "short": "bbda026",
+      "message": "Merge branch 'master' into 21.0",
+      "author": "Craig Smith",
+      "date": "2022-06-24T21:39:13Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "e16af68dd7b48e90bd43437e648f74d6e7ceeb62",
+      "short": "e16af68",
+      "message": "Change 11441937 by gam@gam-DESKTOP-lv2021 on 2021/02/08 08:53:48",
+      "author": "Craig Smith",
+      "date": "2022-06-24T20:51:50Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "85c7ed0b373722dbd3098d12ada4db38af922a73",
+      "short": "85c7ed0",
+      "message": "Change 11180273 by gam@gam-DESKTOP-lv2020 on 2020/10/22 13:07:06",
+      "author": "Craig Smith",
+      "date": "2022-06-24T20:33:37Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "06b1e7aaf3271fed4c812edb1c45e10071b6aa5e",
+      "short": "06b1e7a",
+      "message": "Rename MakerHub/LINX menu to Hobbyist.",
+      "author": "Craig Smith",
+      "date": "2022-06-24T21:24:35Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "fc8f942da8d734fc52488be5ff125fbc783b9635",
+      "short": "fc8f942",
+      "message": "Change 11136551 by gam@gam-DESKTOP-lv2020 on 2020/10/09 10:24:10",
+      "author": "Craig Smith",
+      "date": "2022-06-24T19:29:26Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "327055e7a3d01a40a91f4cdc567ef257d122df1a",
+      "short": "327055e",
+      "message": "Change 11136545 by gam@gam-DESKTOP-lv2020 on 2020/10/09 10:20:34",
+      "author": "Craig Smith",
+      "date": "2022-06-24T19:26:45Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "e82713a421265f72eefde13ea7cc9d40c45d3bba",
+      "short": "e82713a",
+      "message": "Change 11088239 by craig@craig-zifmia-2020 on 2020/09/24 11:56:18",
+      "author": "Craig Smith",
+      "date": "2022-06-24T19:20:30Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "88ae0a8b3d185604c8a47f3fcf541e541006b8b5",
+      "short": "88ae0a8",
+      "message": "Merge pull request #116 from dillonledoux/firmware_wizard",
+      "author": "sharpk",
+      "date": "2021-04-14T14:50:55Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "ea776b4dabf805438fe82f356aa877b795cd8302",
+      "short": "ea776b4",
+      "message": "Fix UART on RPi3 and RPi4",
+      "author": "Ken Sharp",
+      "date": "2021-04-06T20:00:01Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "832de54e67ecb268aca4e3d8f36352732edcd9a1",
+      "short": "832de54",
+      "message": "added the three changed VIs to change list",
+      "author": "Dillon LeDoux",
+      "date": "2020-08-10T17:00:17Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "0202ea46902de410e53ea4223ac30ad1c8140d52",
+      "short": "0202ea4",
+      "message": "modify changes to firmware wizard supporting newer versions of arduino IDE and supporting non installed versions",
+      "author": "Dillon LeDoux",
+      "date": "2020-08-07T19:51:12Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "06dbf626c1e91cf9df1d512c63600e67641eba33",
+      "short": "06dbf62",
+      "message": "Change 10636996 by darrenn@darrenn-darren1-lvdev on 2020/04/24 12:52:08",
+      "author": "Craig Smith",
+      "date": "2020-08-05T22:05:35Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "89715bf4e649a84dc6ea6d6e71f1c12772fc24b4",
+      "short": "89715bf",
+      "message": "Change 10288351 by gam@gam-lvdev-LINX on 2020/02/21 09:14:30",
+      "author": "Craig Smith",
+      "date": "2020-08-05T22:01:51Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "890890d947305a1c7bfc766bf6b035962f6f09ca",
+      "short": "890890d",
+      "message": "Change 10116973 by gam@gam-lvdev-LINX on 2020/01/23 15:55:58",
+      "author": "Craig Smith",
+      "date": "2020-08-05T21:59:41Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "ca2e29ab97a68ba53eec66c00ad0d395623687ba",
+      "short": "ca2e29a",
+      "message": "Change 10057466 by gam@gam-lvdev-LINX on 2020/01/13 16:18:31",
+      "author": "Craig Smith",
+      "date": "2020-08-05T21:56:53Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "5eb48c24d29949abb91de880045d369571e16737",
+      "short": "5eb48c2",
+      "message": "Change 10047526 by gam@gam-lvdev-2020 on 2020/01/10 17:02:26",
+      "author": "Craig Smith",
+      "date": "2020-08-05T21:52:35Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "313da41af154494fde0bfb2a94ed8f90a79291f5",
+      "short": "313da41",
+      "message": "Update git repo from NI internal Perforce depot (trunk/19.0)",
+      "author": "Craig Smith",
+      "date": "2020-08-05T21:29:06Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "02849626400a5634320eb97d90fac285c0acc486",
+      "short": "0284962",
+      "message": "Update VI changes from P4",
+      "author": "Craig Smith",
+      "date": "2019-10-29T23:36:01Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "f2dd6ea807774c36a6fd5d624741749804a409cf",
+      "short": "f2dd6ea",
+      "message": "Update the copy of examples in libraries/LINX/examples.",
+      "author": "Craig Smith",
+      "date": "2019-10-29T23:08:41Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "e2095cb94094bc8704e2063a1a271a0ded273141",
+      "short": "e2095cb",
+      "message": "Fix BBB SPI speed settings",
+      "author": "Ken Sharp",
+      "date": "2019-10-29T17:33:42Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "6c188f6b730eeb9462d8c333f8b32494de8f5d18",
+      "short": "6c188f6",
+      "message": "Fix BBB SPI device paths for Debian Stretch",
+      "author": "Ken Sharp",
+      "date": "2019-10-29T17:28:31Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "1a507d80250cdd8736c81e8b4667d7be7710e0c3",
+      "short": "1a507d8",
+      "message": "Improve SPI test",
+      "author": "Ken Sharp",
+      "date": "2019-10-29T17:22:28Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "2a7fc52e983c3ca12729efd572841ecfa5286985",
+      "short": "2a7fc52",
+      "message": "Add rules to build Arduoino target .ino.hex files to Makefile",
+      "author": "Craig Smith",
+      "date": "2019-10-29T18:31:54Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "001609824365059bb078833fa1148af9a3c5a384",
+      "short": "0016098",
+      "message": "Make I2cSetSpeed return speed",
+      "author": "Craig Smith",
+      "date": "2019-10-09T16:40:20Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "b00bcfe65cc65c4e2d11d5a546c68b8f4f9d739a",
+      "short": "b00bcfe",
+      "message": "Fix out of range index when setting SPI speed",
+      "author": "Craig Smith",
+      "date": "2019-10-09T16:22:57Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "b0bd409bca524e43f88443313a04f058f4c14ca8",
+      "short": "b0bd409",
+      "message": "P4 Change 9574633 on 2019/10/07 by craig@craig-zifmia-2019",
+      "author": "Craig Smith",
+      "date": "2019-10-08T23:33:15Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "d84ee2093b49830d8ca4cac639ded437d24cbe84",
+      "short": "d84ee20",
+      "message": "P4 Change 9494107 on 2019/09/19 by gam@gam-lvdev-LINX",
+      "author": "Craig Smith",
+      "date": "2019-10-08T23:32:19Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "9ce92f6fb299367e97c3a1c01cb488d916e474df",
+      "short": "9ce92f6",
+      "message": "P4 Change 9483140 on 2019/09/17 by gam@perforce-penguin-oblits",
+      "author": "Craig Smith",
+      "date": "2019-10-08T23:31:14Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "b8609c39e6f0240fdae216cff694fd403345e541",
+      "short": "b8609c3",
+      "message": "P4 Change 9475263 on 2019/09/16 by gam@gam-lvdev-LINX",
+      "author": "Craig Smith",
+      "date": "2019-10-08T23:29:45Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "19f7b0ed34438f46153e67a2292fc7a9acd7928d",
+      "short": "19f7b0e",
+      "message": "P4 Change 9442152 on 2019/09/09 by gam@gam-MBPro-LINX",
+      "author": "Craig Smith",
+      "date": "2019-10-08T23:28:43Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "02654d5bd0c4758c82bbc3e6a0532bcb240887c0",
+      "short": "02654d5",
+      "message": "P4 Change 9430672 on 2019/09/06 by gam@gam-lvdev-LINX",
+      "author": "Craig Smith",
+      "date": "2019-10-08T23:27:49Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "618f4f27694d8087057d95798fe438b64953d5a4",
+      "short": "618f4f2",
+      "message": "Fix mode of led_aging.sh",
+      "author": "Craig Smith",
+      "date": "2019-10-08T23:25:23Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "abe59ab925e238d11f8ce5138ba55241e797d13b",
+      "short": "abe59ab",
+      "message": "Fix line endings on .vipb.",
+      "author": "Craig Smith",
+      "date": "2019-10-08T23:15:22Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "d6c89d53ba75d7752539175d8684cfddf8f37896",
+      "short": "d6c89d5",
+      "message": "Fix line endings on the rest of the files in Firmware/Source.",
+      "author": "Craig Smith",
+      "date": "2019-10-08T22:59:44Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "54e265cad99f79881ca201d9075cf9df0bd6eb3d",
+      "short": "54e265c",
+      "message": "Minor fix to README",
+      "author": "sharpk",
+      "date": "2019-10-03T14:31:22Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "f2a385e02903e7d063b0638595000c627de06bfe",
+      "short": "f2a385e",
+      "message": "Remove digital channels 0,1 from Arduino Uno since they are used by USB serial interface",
+      "author": "Craig Smith",
+      "date": "2019-09-25T22:31:11Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "027c4e50f1ec6d2dfaa24c44012e2c0065338600",
+      "short": "027c4e5",
+      "message": "Fix missing return values",
+      "author": "Craig Smith",
+      "date": "2019-09-24T21:42:42Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "87363fbc3f0fcc1f1ded7dd9799c7ae832cf4197",
+      "short": "87363fb",
+      "message": "Handle layout 9.x, no DTO slots",
+      "author": "Craig Smith",
+      "date": "2019-09-27T21:36:04Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "cf6cd98d6f4867f5da95f5a94a534e18085fc226",
+      "short": "cf6cd98",
+      "message": "Fix Makefile to use $(CXX) instead of hardcodes g++ (for cross-compile builds)",
+      "author": "Craig Smith",
+      "date": "2019-09-27T21:45:09Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "17c12f3d01996686117a08c8887b3fbcd22a336a",
+      "short": "17c12f3",
+      "message": "Fix line endings of files checked in with CR/LF",
+      "author": "Craig Smith",
+      "date": "2019-09-27T21:28:15Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "729ba50862a62d4a6fed2a3938d15189ddcd51b9",
+      "short": "729ba50",
+      "message": "Fix incorrect #if",
+      "author": "Craig Smith",
+      "date": "2019-09-24T20:05:54Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "036286a483ea1bdcc2889e03912de45f52eed06b",
+      "short": "036286a",
+      "message": "Add makefile rule to build Linux I/O servers",
+      "author": "Craig Smith",
+      "date": "2019-09-24T20:03:20Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "631326194ee9c62eff9dfaf3e446665fedc133de",
+      "short": "6313261",
+      "message": "Fix BBB PWM initialization to work for both stretch and previous debian rels",
+      "author": "Craig Smith",
+      "date": "2019-09-24T19:54:59Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "01a897e7851cbd543c71d7c6b590daecf84cde10",
+      "short": "01a897e",
+      "message": "Fix channel index bug in AI Read for BBB.",
+      "author": "Craig Smith",
+      "date": "2019-09-24T19:04:04Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "14e1bbb8405248417c0201a684a24291b78fd668",
+      "short": "14e1bbb",
+      "message": "Test gpio file exists before exporting it; trying to export again gets an error and UNEXPORTS the pin!",
+      "author": "Craig Smith",
+      "date": "2019-09-12T20:49:38Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "a527fb7f2c67ac930a314e6b9e2fb383e89e7525",
+      "short": "a527fb7",
+      "message": "Null-check channel handle before access in case init failed",
+      "author": "Craig Smith",
+      "date": "2019-09-12T18:39:41Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "5434f5cbef306ada3e5a096cc18c7a3d35c21780",
+      "short": "5434f5c",
+      "message": "Merge branch '2.1'",
+      "author": "Ken Sharp",
+      "date": "2019-10-02T20:00:46Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "b25091394e0449076394cf567ac9da3fefbd312b",
+      "short": "b250913",
+      "message": "Merge pull request #102 from sharpk/dev/esp8266-cfg-2.1",
+      "author": "Sam Kristoff",
+      "date": "2016-11-10T16:28:58Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "3d6480d300daec776266e11bd84ffb7f310e64d4",
+      "short": "3d6480d",
+      "message": "Fix compile error for device with no analog references",
+      "author": "Ken Sharp",
+      "date": "2016-11-07T19:29:22Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "e370d98b6730102b52f6b89416038c6d55c122d0",
+      "short": "e370d98",
+      "message": "Clean up ESP8266 static config firmware",
+      "author": "Ken Sharp",
+      "date": "2015-12-22T17:04:22Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "2bed232c482363f7604c5f1241bd808c4738bee3",
+      "short": "2bed232",
+      "message": "Make ESP8266 Wifi Listener support static IP configuration",
+      "author": "Ken Sharp",
+      "date": "2015-12-21T01:14:38Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "3b0bc11ece4b3b8902e816c95ed9a6fa5e9dc261",
+      "short": "3b0bc11",
+      "message": "Disable debug serial messages by default for ESP8266",
+      "author": "Ken Sharp",
+      "date": "2015-12-21T01:11:47Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "974095696e39f3d212b16a794012e6719e14cbd9",
+      "short": "9740956",
+      "message": "Add ESP8266 configurable firmware",
+      "author": "Ken Sharp",
+      "date": "2015-12-11T03:04:15Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "0803b405b03ffce8d905d22d1f0955396bc2b82c",
+      "short": "0803b40",
+      "message": "Merge pull request #99 from macman88/master",
+      "author": "Sam Kristoff",
+      "date": "2016-05-02T14:45:13Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "f41958756bb6d66d783ec080d10a4601ffa7e89d",
+      "short": "f419587",
+      "message": "Merge branch '2.1' of https://github.com/MakerHub/LINX into 2.1",
+      "author": "Sam K",
+      "date": "2016-05-02T14:40:27Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "9677b312ae255b092a40585df9bca8619ff21c6d",
+      "short": "9677b31",
+      "message": "LINX 3.0 Release",
+      "author": "Sam K",
+      "date": "2016-05-02T14:38:12Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "759bcf57c9ab4c0eac686dc1bce18786b3acf8f8",
+      "short": "759bcf5",
+      "message": "Fixed DigitalSetDirection output iteration",
+      "author": "Sam Kristoff",
+      "date": "2016-03-04T21:09:55Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "9fbd7f04464b37bdea6e0b01f11e1fd163efcf19",
+      "short": "9fbd7f0",
+      "message": "Update BBB 8.x to set UART pin mux and use channel map correctly",
+      "author": "root",
+      "date": "2016-03-04T19:34:34Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "d8889deacf60eb1c89d5220383e5798d4a4071d7",
+      "short": "d8889de",
+      "message": "Added support for using Analog pins (A0-A5) as digital pins 18-23 on Arduino Leonardo.",
+      "author": "macman88",
+      "date": "2016-02-27T21:14:21Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "b597072222916a7ac1bb3ed1a8afbca9cec82c33",
+      "short": "b597072",
+      "message": "Add code to set SPI muxes on init",
+      "author": "root",
+      "date": "2016-02-25T18:07:58Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "3a8e685ba8d2debc84b7d8effc5829927cd8adee",
+      "short": "3a8e685",
+      "message": "Update I2C dev path to support 7.x and 8.x layout.",
+      "author": "Sam",
+      "date": "2016-02-24T20:44:44Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "410390b47588dcf06b6a5a5ff5596539b8aba700",
+      "short": "410390b",
+      "message": "Small PWM Code Cleanup",
+      "author": "root",
+      "date": "2016-02-24T16:00:56Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "8a6de47b9e834e0f94af5841791bb1219a7f61dd",
+      "short": "8a6de47",
+      "message": "Fix PWM export order issue on 7.x OS code functional but needs clean up",
+      "author": "root",
+      "date": "2016-02-24T15:36:50Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "cde609f5f9bfcd45fcedfa50ce850dd864ef2d68",
+      "short": "cde609f",
+      "message": "Update BBB to support new PWM file layout in debian 8.x images.",
+      "author": "Sam",
+      "date": "2016-02-23T22:05:29Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "00559574f8973dff6b2303fafc6cf58c64ba43df",
+      "short": "0055957",
+      "message": "Prevent crash when trying to open paths that dne on target.",
+      "author": "Sam",
+      "date": "2016-02-15T21:39:07Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "3644899484cb227ecf8336d69f5cb9001aae597a",
+      "short": "3644899",
+      "message": "Updated LinxResources.zip, installer helpsers and built new installer.",
+      "author": "Sam K",
+      "date": "2016-01-29T19:04:14Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "11f50d9fe186bf31ad18b3aaa46c94ec9ecc0728",
+      "short": "11f50d9",
+      "message": "Added Pmod examples for ALS, CPMS, GYRO, MIC3, TC1 all created by Dharsan.",
+      "author": "Sam K",
+      "date": "2016-01-27T16:00:47Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "7497a0007086df12c03718bf5dd4defaf3cda92d",
+      "short": "7497a00",
+      "message": "Replaced old .cpp.hex with .ino.hex",
+      "author": "Sam K",
+      "date": "2016-01-27T15:26:03Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "7e3db88108f483b9ea38b05ce812826a3808673d",
+      "short": "7e3db88",
+      "message": "Integrated Dharsan's firmware changes.",
+      "author": "Dharsan",
+      "date": "2016-01-25T21:32:51Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "dc4719a2b4faf6539bf987c98ae6e9236db3e8ca",
+      "short": "dc4719a",
+      "message": "Merge branch '2.1' of https://github.com/MakerHub/LINX into 2.1",
+      "author": "Sam K",
+      "date": "2016-01-25T21:23:35Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "0e109c8f50c55d827d3fcae6fb86d3b429ef4b13",
+      "short": "0e109c8",
+      "message": "Merging Dharshan's changes:",
+      "author": "Dharsan",
+      "date": "2016-01-25T21:23:08Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "2a5dcdf60c13bed8561c92b5207d33ba057164db",
+      "short": "2a5dcdf",
+      "message": "Update LinxBeagleBoneBlack.cpp",
+      "author": "Sam Kristoff",
+      "date": "2016-01-22T22:43:44Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "171a106be4f62ce2ead801df3e035ba962a9840f",
+      "short": "171a106",
+      "message": "Update LinxBeagleBoneBlack.h",
+      "author": "Sam Kristoff",
+      "date": "2016-01-22T22:43:30Z",
+      "project": false,
+      "dep_only": false
+    }
+  ],
+  "config": {
+    "use": "",
+    "actions": {},
+    "vipc": [],
+    "dragon": [],
+    "hasVipcList": false,
+    "hasDragonList": false
+  },
+  "vipc": [
+    {
+      "path": ".github/labview/vipm/ci-tooling.vipc",
+      "role": "core",
+      "capability": "",
+      "tooling": true,
+      "configured": true,
+      "monitored": true,
+      "monitorOn": [
+        "windows",
+        "linux"
+      ],
+      "locked": true,
+      "packages": [
+        "astemes_lib_lunit-2.0.13.6",
+        "astemes_lib_lunit_cli-1.6.1.23",
+        "astemes_lib_lunit_coverage_analysis_add_on-1.0.0.2",
+        "astemes_lib_lunit_global_fixture_add_on-1.0.5.4",
+        "astemes_lib_lunit_parameterized_add_on-1.1.10.8",
+        "astemes_lib_lunit_test_inheritance_add_on-1.0.5.4",
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "felipefoz_lib_lv_rainbow_terminal-1.1.1.5",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_lib_state_machine-2024.0.3.23",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "labview_open_source_lib_epoch_datetime-1.3.0.8",
+        "labview_open_source_project_lib_labview_open_source_palette-1.0.2.7",
+        "labview_open_source_project_lib_openuri-1.4.0.13",
+        "lvos_lib_caraya_cli_extension-2.0.0.7",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_simple_xml-1.0.0.4",
+        "ni_lib_utf_junit_report-1.0.1.43",
+        "oglib_array-6.0.1.20",
+        "oglib_error-6.0.0.26",
+        "oglib_file-6.0.2.28",
+        "oglib_lvdata-6.0.0.45",
+        "oglib_string-6.0.2.35",
+        "pnr_lib_caraya_junit_for_azure_pipelines-1.2.0.11",
+        "pnr_lib_junit_xml-1.0.0.4",
+        "sas_workshops_lib_lunit_for_g_cli-1.2.1.85",
+        "wiresmith_technology_lib_g_cli-3.0.1.98"
+      ],
+      "error": ""
+    }
+  ],
+  "nipm": [
+    {
+      "name": "LabVIEW",
+      "source": "NI Package Manager",
+      "labview": true,
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "details": "LabVIEW runtime and development packages from the NI feeds."
+    },
+    {
+      "name": "VI Analyzer support",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-viawin-labview-support"
+        ],
+        "linux": [
+          "ni-vialin-labview-support"
+        ]
+      },
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "details": "NI VI Analyzer support package used by the analyzer runners."
+    },
+    {
+      "name": "NI Unit Test Framework",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-utf-labview-support"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "NI UTF support package used by the Windows unit-test runner."
+    },
+    {
+      "name": "JKI Dragon",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "jki-dragon"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "JKI Dragon dependency-management tooling installed from the LabVIEW 2026 NI Package Manager feed."
+    },
+    {
+      "name": "VI Package Manager",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-vipm"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "NI-published Windows VIPM package that enables VIPC application during worker builds. Linux installs VIPM from the native Debian package during its worker build."
+    }
+  ],
+  "dragon": {
+    "available": false,
+    "column": "windows",
+    "ready": false,
+    "health": "",
+    "manifest_version": "",
+    "files": [],
+    "install_set": [],
+    "conflicts": []
+  },
+  "system": [
+    {
+      "name": "VI Browser 2.0 toimages runner",
+      "source": "Repository Go code",
+      "path": ".github/labview/toimages/main.go",
+      "details": "Batch runner compiled from repo Go source; Linux uses the toimages GHCR image and Windows builds runner.exe in the workflow.",
+      "platforms": {
+        "windows": {
+          "present": true,
+          "label": "workflow-built"
+        },
+        "linux": {
+          "present": true,
+          "label": "toimages image"
+        }
+      }
+    },
+    {
+      "name": "lvctl render engine",
+      "source": "Repository Go code + embedded VIs",
+      "path": ".github/labview/toimages/_ni/labview/lvctl",
+      "details": "Renderer used by VI Browser 2.0 to drive LabVIEW and emit position-aware frame JSON.",
+      "platforms": {
+        "windows": {
+          "present": true,
+          "label": "workflow-built"
+        },
+        "linux": {
+          "present": true,
+          "label": "toimages image"
+        }
+      }
+    }
+  ],
+  "columns": [
+    {
+      "key": "windows",
+      "label": "Windows",
+      "platform": "windows",
+      "defaultTag": "latest",
+      "tag": "latest",
+      "ready": true,
+      "packages": [
+        "astemes_lib_lunit-2.0.13.6",
+        "astemes_lib_lunit_cli-1.6.1.23",
+        "astemes_lib_lunit_coverage_analysis_add_on-1.0.0.2",
+        "astemes_lib_lunit_global_fixture_add_on-1.0.5.4",
+        "astemes_lib_lunit_parameterized_add_on-1.1.10.8",
+        "astemes_lib_lunit_test_inheritance_add_on-1.0.5.4",
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "felipefoz_lib_lv_rainbow_terminal-1.1.1.5",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_lib_state_machine-2024.0.3.23",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "labview_open_source_lib_epoch_datetime-1.3.0.8",
+        "labview_open_source_project_lib_labview_open_source_palette-1.0.2.7",
+        "labview_open_source_project_lib_openuri-1.4.0.13",
+        "lvos_lib_caraya_cli_extension-2.0.0.7",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_simple_xml-1.0.0.4",
+        "ni_lib_utf_junit_report-1.0.1.43",
+        "oglib_array-6.0.1.20",
+        "oglib_error-6.0.0.26",
+        "oglib_file-6.0.2.28",
+        "oglib_lvdata-6.0.0.45",
+        "oglib_string-6.0.2.35",
+        "pnr_lib_caraya_junit_for_azure_pipelines-1.2.0.11",
+        "pnr_lib_junit_xml-1.0.0.4",
+        "sas_workshops_lib_lunit_for_g_cli-1.2.1.85",
+        "wiresmith_technology_lib_g_cli-3.0.1.98"
+      ],
+      "failed_packages": [],
+      "nipkg_ready": true,
+      "nipkg_packages": [],
+      "labview_version": "2026",
+      "version": "win-c6221662a861"
+    },
+    {
+      "key": "linux",
+      "label": "Linux",
+      "platform": "linux",
+      "defaultTag": "latest",
+      "tag": "latest",
+      "ready": true,
+      "packages": [],
+      "failed_packages": [],
+      "nipkg_ready": true,
+      "nipkg_packages": [],
+      "labview_version": "2026",
+      "version": "linux-4ce478ba9bb6"
+    }
+  ]
+}
