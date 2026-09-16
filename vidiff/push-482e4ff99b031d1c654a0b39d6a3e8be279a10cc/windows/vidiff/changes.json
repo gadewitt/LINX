@@ -1,0 +1,30 @@
+{
+  "platform": "windows",
+  "files": [
+    {
+      "file": "LabVIEW/help/Hobbyist/Forums.vi",
+      "type": "modified",
+      "report": "LabVIEW-help-Hobbyist-Forums.vi/index.html"
+    },
+    {
+      "file": "LabVIEW/help/Hobbyist/Pinout - BeagleBone Black.vi",
+      "type": "modified",
+      "report": "LabVIEW-help-Hobbyist-Pinout_-_BeagleBone_Black.vi/index.html"
+    },
+    {
+      "file": "LabVIEW/help/Hobbyist/Pinout - Raspberry Pi 2 B.vi",
+      "type": "deleted",
+      "report": "LabVIEW-help-Hobbyist-Pinout_-_Raspberry_Pi_2_B.vi/index.html"
+    },
+    {
+      "file": "LabVIEW/help/Hobbyist/Pinout - Raspberry Pi.vi",
+      "type": "added",
+      "report": "LabVIEW-help-Hobbyist-Pinout_-_Raspberry_Pi.vi/index.html"
+    },
+    {
+      "file": "LabVIEW/help/Hobbyist/Wiki.vi",
+      "type": "added",
+      "report": "LabVIEW-help-Hobbyist-Wiki.vi/index.html"
+    }
+  ]
+}
