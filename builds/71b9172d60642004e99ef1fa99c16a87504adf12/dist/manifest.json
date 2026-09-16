@@ -1,0 +1,35 @@
+{
+    "repo":  "gadewitt/LINX",
+    "sha":  "71b9172d60642004e99ef1fa99c16a87504adf12",
+    "ref":  "refs/heads/main",
+    "platform":  "windows",
+    "arch":  "AMD64",
+    "labview_version":  "LabVIEW 2026",
+    "built_at":  "2026-09-16T22:21:02Z",
+    "specs":  [
+                  {
+                      "project":  "LabVIEW\\vi.lib\\MakerHub\\LINX\\LMH-LINX.lvproj",
+                      "name":  "Firmware Wizard",
+                      "type":  "EXE",
+                      "target":  "My Computer",
+                      "status":  "failed",
+                      "outputs":  [
+
+                                  ],
+                      "message":  "ExecuteBuildSpec exited 2",
+                      "duration":  38.2
+                  },
+                  {
+                      "project":  "LabVIEW\\vi.lib\\MakerHub\\LINX\\LMH-LINX.lvproj",
+                      "name":  "LINX Apps",
+                      "type":  "Installer",
+                      "target":  "My Computer",
+                      "status":  "failed",
+                      "outputs":  [
+
+                                  ],
+                      "message":  "ExecuteBuildSpec exited 2",
+                      "duration":  13.6
+                  }
+              ]
+}
