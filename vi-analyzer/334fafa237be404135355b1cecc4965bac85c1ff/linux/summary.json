@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "sha": "334fafa237be404135355b1cecc4965bac85c1ff",
+    "short": "334fafa",
+    "platform": "linux",
+    "repo": "gadewitt/LINX",
+    "pages_url": "https://gadewitt.github.io/LINX",
+    "pages_base": "../../..",
+    "commit": {
+      "message": "Merge 294b0fee6bc399bc17d9bcf371741ce41e7dcac2 into e24d9af9d2dc798221db2b27b426ed2eb0e13e49",
+      "author": "Glenn DeWitt",
+      "date": "2026-09-16T19:39:16-05:00"
+    },
+    "generated_utc": "2026-09-17 00:44 UTC",
+    "analysis_date": "",
+    "duration": ""
+  },
+  "summary": {
+    "vis_analyzed": 0,
+    "tests_run": 0,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "findings": 0,
+    "vis_with_findings": 0
+  },
+  "errors": {
+    "vi_not_loadable": 0,
+    "test_not_loadable": 0,
+    "test_not_runnable": 0,
+    "test_error_out": 0
+  },
+  "rule_counts": []
+}
