@@ -1,0 +1,42 @@
+{
+ "meta": {
+  "sha": "d3c9593837fa7af43c2e1915d0eb4f33258e84d4",
+  "short": "d3c9593",
+  "platform": "windows",
+  "repo": "gadewitt/LINX",
+  "pages_url": "https://gadewitt.github.io/LINX",
+  "dash_url": "https://gadewitt.github.io/LINX/",
+  "labview_version": "2026",
+  "commit": {
+   "message": "Merge f1e4a09f511b9c02e7daf280040f9e0688e9fe19 into e24d9af9d2dc798221db2b27b426ed2eb0e13e49",
+   "author": "Glenn DeWitt",
+   "date": "2026-09-18T20:59:15Z"
+  },
+  "generated_utc": "2026-09-18 21:15 UTC",
+  "spdx_version": "CycloneDX 1.5",
+  "created": ""
+ },
+ "summary": {
+  "total_packages": 1
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "packages": [
+  {
+   "name": "ni-labview-2026-vilib",
+   "version": "26.3.0.49792-0+f640",
+   "vendor": "National Instruments"
+  }
+ ],
+ "tooling": {
+  "missing": []
+ }
+}
